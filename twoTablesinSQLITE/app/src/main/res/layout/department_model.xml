@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/round_corner"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+
+
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/grid_item_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_ashoka_chakra"
+            android:textAlignment="center"
+            android:contentDescription="Logo"
+            android:minWidth="60dp"
+            android:minHeight="60dp"
+            android:layout_gravity="center">
+        </de.hdodenhof.circleimageview.CircleImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/deptNameTv"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:text="Group Name"
+            android:textAlignment="center"
+            android:textColor="#8f8f8f"
+            android:paddingTop="4dp"
+
+            android:textSize="10dp"></TextView>
+    </LinearLayout>
+</LinearLayout>
